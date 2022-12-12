@@ -1,0 +1,16 @@
+.chat-window {
+    width: 100%;
+    height: 100vh;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: calc(100% - 57px - 16px);
+        padding: 10px 10px 6px 10px;
+    }
+
+    &--empty {
+        padding: 6px;
+    }
+}

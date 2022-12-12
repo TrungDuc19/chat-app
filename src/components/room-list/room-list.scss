@@ -1,0 +1,27 @@
+.room-list {
+    .panel {
+
+        .ant-collapse-header,
+        p {
+            color: white;
+        }
+
+        .ant-collapse-content-box {
+            padding: 0 40px;
+        }
+
+        .room-item {
+            display: block;
+            margin-bottom: 5px;
+
+            &::first-letter {
+                text-transform: uppercase;
+            }
+        }
+
+        .add-room {
+            color: white;
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 0 11px;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        margin: 0;
+        font-weight: bold;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    &__description {
+        font-size: 12px;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    &__avatar-group {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,27 @@
+.message-item {
+    margin-bottom: 10px;
+
+    &__author {
+        margin-left: 5px;
+        font-weight: bold;
+    }
+
+    &__date {
+        margin-left: 10px;
+        font-size: 11px;
+        color: #a7a7a7;
+    }
+
+    &__text {
+        margin-left: 30px;
+    }
+
+    &--currentUser & {
+
+        &__author,
+        &__date,
+        &__text {
+            color: #0000A3;
+        }
+    }
+}

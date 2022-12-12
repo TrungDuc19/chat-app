@@ -1,0 +1,18 @@
+.invite-member-modal {
+    &__select {
+        width: 100%;
+    }
+
+    &__username {
+        margin-left: 4px;
+    }
+}
+
+.ant-select-selection-item {
+    height: 28px;
+
+    .ant-select-selection-item-content {
+        display: flex;
+        align-items: center;
+    }
+}

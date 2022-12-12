@@ -1,0 +1,14 @@
+.form-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 2px;
+    padding: 2px 2px 2px 0;
+
+    &__item {
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
