@@ -1,7 +1,7 @@
 # Project: Chat App
-Link: https://chat-app-e9577.web.app/
-FrontEnd: ReactJS (Hooks), Ant Design
-BackEnd: Firebase
+> Link: https://chat-app-e9577.web.app/ \
+> FrontEnd: ReactJS (Hooks), SCSS, Ant Design \
+> BackEnd: Firebase
 
 # Getting Started with Create React App
 
